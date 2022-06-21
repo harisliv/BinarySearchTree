@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // Specifies what module code is generated
+    "noImplicitAny": true, // Enable error reporting for expressions or declarations with an implied any type
+    "removeComments": true, // Removing comments from the JavaScript code
+    "preserveConstEnums": true, // Makes such const enums a source-code feature only, with no runtime traces.
+    "sourceMap": true, // Create source map files (js.map) they help on debugging
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}
